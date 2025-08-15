@@ -1,11 +1,8 @@
-// app/page.js
-
 import Link from 'next/link';
 
 export default function HomePage() {
   return (
     <div>
-      
       {/* Header and Navigation */}
       <header className="header">
         <div className="container">
@@ -99,10 +96,9 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <p>&copy; {new Date().getFullYear()}  Manjul Mayank, All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()}  Manjul Mayank, All Rights Reserved.</p>
         </div>
       </footer>
-
     </div>
   );
 }
